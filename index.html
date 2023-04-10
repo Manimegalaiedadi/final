@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="log.css">
+    <title>login page</title>
+    <style>
+        @media only screen and (min-width: 600px) {
+  body {
+    background-color: #b55fe7;
+  }
+  #container-1
+  {
+     margin-right:70px;
+  }
+  .acc
+  {
+    margin-right: 349px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color:skyblue;
+  }
+  #cintainer-1
+  {
+  margin-right:250px;
+  }
+.acc
+{
+    margin-right: 610px;
+}
+}
+
+    </style>
+ </head>
+ <body>
+    <div id="container">
+        <h1 class="head">Sign Up</h1>
+        <h3>It's free and only takes a minute</h3>
+            <form>
+                <div id="whole">
+                    <label> First Name</label><br>
+                        <input type="name"class="name"required/><br><br>
+                    <label>Last Name</label><br>
+                        <input type="name" class="name"required/><br><br>
+                    <label>Email</label><br>
+                        <input type="Email"class="name" required/><br><br>
+                    <label>Password</label><br>
+                        <input type="password"class="name"pattern="[a-z0-5]{8,}" required/><br><br>
+                    <label>Confirm Password</label><br>
+                        <input type="password"class="name"pattern="[a-z0-5]{8,}" required/><br><br>
+                    <input type="submit" class="name-1" value="Submit" /><br><br><br>
+                    <p>By clicking the Sign Up button,you agree to our<br>
+                    <span style="color: blueviolet; text-decoration: underline;">Terms and Conditions </span>and <span style="color: blueviolet; text-decoration: underline;">Policy Privacy.</span></p>
+                </div> 
+            </form>
+    </div>
+    <p class="acc">Already have an account?<span style="color:rgb(8, 143, 143);text-decoration:underline ;">Login here</span></p>
+    <div id="container-1">
+        <h1 class="head">Login</h1>
+            <form>
+                <div id="whole-1">
+                    <label>Email</label><br>
+                        <input type="Email"class="name" required/><br><br>
+                    <label>Password</label><br>
+                        <input type="password"class="name"pattern="[a-z0-5]{8,}" required/><br><br>
+                    <input type="submit"  class="name-1"value="Submit" />
+                </div> 
+            </form>
+            </div>
+    <p class="ac">Not have an account?<span style="color: rgb(8, 139, 139); text-decoration: underline;">Sign UP here</span></p>
+ </body>
+</html>
